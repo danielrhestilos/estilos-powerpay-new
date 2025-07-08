@@ -1,0 +1,22 @@
+{
+  "powerpay-script": {
+    "component": "PowerPayScript",
+    "allowed": "*",
+    "render": "server"
+  },
+  "mo-header": {
+    "component": "powerPayTopHeader",
+    "allowed": "*",
+    "render": "client"
+  },
+  "mo-banner": {
+    "component": "powerPayBanner",
+    "allowed": "*",
+    "render": "client"
+  },
+  "mo-product-page": {
+    "component": "powerPayPDP",
+    "allowed": "*",
+    "render": "client"
+  }
+}
