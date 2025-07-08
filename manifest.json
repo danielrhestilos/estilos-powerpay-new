@@ -1,6 +1,6 @@
 {
-  "vendor": "powerpaypartnerpe",
-  "name": "powerpay-widgets",
+  "vendor": "estilospe",
+  "name": "powerpay-widgets-new",
   "version": "0.0.24",
   "title": "PowerPay Widgets",
   "description": "Custom component to handle PowerPay widgets in the store front.",
@@ -20,9 +20,7 @@
   "settingsSchema": {
     "title": "PowerPay Widgets",
     "type": "object",
-    "properties": {
-
-    }
+    "properties": {}
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"

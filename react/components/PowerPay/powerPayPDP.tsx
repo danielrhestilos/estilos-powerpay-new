@@ -24,8 +24,8 @@ const PowerpayPDP = () => {
     setMopdp(`
       <mo-product-page 
         product-price="${product.priceRange.sellingPrice.highPrice}" 
-        mo-client-id="ck_yB0IBOWB-SK638VTgF3yfJAFUqjLb8YLzWbR6XlmugY"
-        theme="white" 
+        mo-client-id="ck_D9Pt3c1TO4BgLq3foxmqMsQAZkr-Gn4hMT8FVXEVI30"
+        theme="bluewhite" 
       ></mo-product-page>
     `)
     
