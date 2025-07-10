@@ -20,10 +20,13 @@ const PowerpayPDP = () => {
     "black"
 
     */
-
+   console.log('product ', product);
+   
+    console.log("product?.priceRange?.sellingPrice?.highPrice ",product?.priceRange?.sellingPrice?.highPrice);
+    
     setMopdp(`
       <mo-product-page 
-        product-price="${product.priceRange.sellingPrice.highPrice}" 
+        product-price="${product?.priceRange?.sellingPrice?.highPrice}" 
         mo-client-id="ck_D9Pt3c1TO4BgLq3foxmqMsQAZkr-Gn4hMT8FVXEVI30"
         theme="bluewhite" 
       ></mo-product-page>
@@ -31,10 +34,14 @@ const PowerpayPDP = () => {
     
 
   }, [])
-
+  if(!product) return null
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: mopdp }} />
+      <div dangerouslySetInnerHTML={{ __html: mopdp }} 
+      style={{
+        width:"100%"
+      }}
+      />
     </>
   )
 }
